@@ -4,6 +4,6 @@
     Args:
         list_num (list): parameter
     Returns:
-        int: return answer
+        list: return answer
 */
 void main() {}

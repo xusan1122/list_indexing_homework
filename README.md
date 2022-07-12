@@ -27,7 +27,7 @@ Output: []
 
 ```Python
 Input: list1=[1,2,3,4,5]
-Output: 1
+Output: [1]
 
 ```
 
@@ -35,7 +35,7 @@ Output: 1
 
 ```Python
 Input: list1=["x", 1, "y", 2, "z", 3]
-Output: "x"
+Output: ["x"]
 
 ```
 **Constraints:**
@@ -74,7 +74,7 @@ Output: ["x", 1, "y", 2, "z", 3]
 
 ```Python
 Input: list1=[1, 2, 3, 4, 5]
-Output: 5
+Output: [5]
 
 ```
 
@@ -82,7 +82,7 @@ Output: 5
 
 ```Python
 Input: list1=[5,3,'a',1,2]
-Output: 2
+Output: [2]
 
 ```
 **Constraints:**
@@ -97,7 +97,7 @@ Output: 2
 
 ```Python
 Input: list1=[1, 2, 3, 4, 5] i=1
-Output: 2
+Output: [2]
 
 ```
 
@@ -105,7 +105,7 @@ Output: 2
 
 ```Python
 Input: list1=[5,3,'a',1,2] i=3
-Output: 1
+Output: [1]
 
 ```
 **Constraints:**
@@ -213,7 +213,7 @@ Output: False
 
 ```Python
 Input: list1=[5, 32, 1, 4, 3]
-Output: 5
+Output: [5]
 
 ```
 
@@ -221,7 +221,7 @@ Output: 5
 
 ```Python
 Input: list1=[12, 2, 5, 2, 7, 9, 1]
-Output: 12
+Output: [12]
 
 ```
 **Constraints:**
