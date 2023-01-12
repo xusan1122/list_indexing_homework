@@ -7,7 +7,7 @@
         list: return answer
 */
 List func(List a) {
-  // List a = [];
+  List a = [];
   return a;
 }
 
