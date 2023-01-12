@@ -6,4 +6,14 @@
     Returns:
         list: return answer
 */
-void main() {}
+// import 'list_index01.dart';
+
+List func(List list1) {
+  // list1 = [1, 2, 3, 4, 5];
+  List answer=[list1[0]];
+  return answer;
+}
+
+void main() {
+  print(func(["x",2,"y",4,"z"]));
+}
