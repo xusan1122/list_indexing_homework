@@ -7,4 +7,14 @@
     Returns:
         list: return answer
 */
-void main() {}
+// import 'dart:html_common';
+
+List func(List list1) {
+  int i = 1;
+  List answer = [list1[i]];
+  return answer;
+}
+
+void main() {
+  print(func([1, 2, 3, 4, 5]));
+}
