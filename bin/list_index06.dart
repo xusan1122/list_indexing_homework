@@ -7,12 +7,18 @@
         list: return answer
 */
 // import 'dart:math';
+import 'dart:math';
 
 List func(List list1) {
-  int i = 1;
-  List answer=list1;
-  if (list1[i] >= 1) {
-    answer = list1[i == true];
+  int i = 0;
+  List answer = list1;
+  while (list1.length > i) {
+    // list1[list1[i]] = true;
+    if (list1[i] > 0) {
+      list1[i] = true;
+    }
+    i++;
+    // return list1;
   }
   return answer;
 }
